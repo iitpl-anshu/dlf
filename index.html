@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DLF – Building India</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="nav-overlay" id="navOverlay" onclick="closeMenu()"></div>
+    <nav class="dlf-nav">
+      <div class="container-xl">
+        <div class="nav-bar">
+          <a class="brand" href="#">
+            <img src="assets/img/logo.svg" alt="">
+          </a>
+          <button
+            class="ham"
+            id="hamBtn"
+            onclick="openMenu()"
+            aria-label="Open menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <div class="nav-menu" id="navMenu">
+            <div class="mob-head">
+              <a class="brand" href="#">
+                <span class="t1">DLF<em>▲</em></span>
+                <span class="t2">Building India</span>
+              </a>
+              <button
+                class="mob-close"
+                onclick="closeMenu()"
+                aria-label="Close"
+              >
+                ✕
+              </button>
+            </div>
+            <div class="nav-links">
+              <div class="dd-wrap">
+                <a class="nl" href="#" data-dd="dd1">
+                  DLF Privana <i class="bi bi-chevron-down chev"></i>
+                </a>
+                <ul class="dd-panel" id="dd1">
+                  <li><span class="lbl">Gurgaon</span></li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-building"></i>DLF Privana South</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-building"></i>DLF Privana West</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-building"></i>DLF The Dahlias</a
+                    >
+                  </li>
+                  <li><hr /></li>
+                  <li><span class="lbl">Mumbai</span></li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-building"></i>DLF Privana Mumbai</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="dd-wrap">
+                <a class="nl" href="#" data-dd="dd2">
+                  All Projects <i class="bi bi-chevron-down chev"></i>
+                </a>
+                <ul class="dd-panel" id="dd2">
+                  <li><span class="lbl">By Type</span></li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-houses"></i>Residential</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-briefcase"></i>Commercial</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"><i class="bi bi-shop"></i>Retail</a>
+                  </li>
+                  <li><hr /></li>
+                  <li><span class="lbl">By City</span></li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-geo-alt"></i>Gurgaon</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-geo-alt"></i>Mumbai</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-geo-alt"></i>Delhi NCR</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-geo-alt"></i>Chennai</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <a class="nl" href="#">Commercial</a>
+              <a class="nl" href="#">Residential</a>
+              <a class="nl" href="#">News</a>
+            </div>
+            <div class="nav-right">
+              <a href="tel:+919211620061" class="ph"
+                ><i class="bi bi-telephone-fill"></i>+91 9211620061</a
+              >
+              <a href="#" class="btn-enq">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ═══════════════════ HERO ═══════════════════ -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <h1>
+          Where <span class="hl">Legacy Meets</span> the<br />Future of Living.
+        </h1>
+        <p>
+          Discover premium residences by DLF Homes – now redefining luxury in
+          Mumbai and Gurgaon with landmark projects like DLF Privana and more.
+        </p>
+        <a href="#" class="btn-hero">Enquire Now</a>
+      </div>
+      <div class="scroll-dot"><span></span></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const DESK = 992;
+      const menu = document.getElementById("navMenu");
+      const overlay = document.getElementById("navOverlay");
+
+      /* ── Mobile open / close ── */
+      function openMenu() {
+        menu.classList.add("open");
+        overlay.classList.add("show");
+        document.body.style.overflow = "hidden";
+      }
+      function closeMenu() {
+        menu.classList.remove("open");
+        overlay.classList.remove("show");
+        document.body.style.overflow = "";
+        // close all dropdowns too
+        closeAllDd();
+      }
+
+      /* ── Dropdown helpers ── */
+      function closeAllDd(except) {
+        document.querySelectorAll(".dd-panel.show").forEach((p) => {
+          if (p !== except) {
+            p.classList.remove("show");
+            document
+              .querySelector(`[data-dd="${p.id}"]`)
+              .classList.remove("open");
+          }
+        });
+      }
+
+      document.querySelectorAll("[data-dd]").forEach((link) => {
+        const panel = document.getElementById(link.getAttribute("data-dd"));
+        const wrap = link.closest(".dd-wrap");
+        let leaveT;
+
+        /* DESKTOP — hover */
+        wrap.addEventListener("mouseenter", () => {
+          if (window.innerWidth < DESK) return;
+          clearTimeout(leaveT);
+          closeAllDd(panel);
+          panel.classList.add("show");
+          link.classList.add("open");
+        });
+        wrap.addEventListener("mouseleave", () => {
+          if (window.innerWidth < DESK) return;
+          leaveT = setTimeout(() => {
+            panel.classList.remove("show");
+            link.classList.remove("open");
+          }, 120);
+        });
+
+        /* MOBILE — click/tap accordion */
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          if (window.innerWidth >= DESK) return;
+          const isOpen = panel.classList.contains("show");
+          closeAllDd(panel);
+          if (!isOpen) {
+            panel.classList.add("show");
+            link.classList.add("open");
+          } else {
+            panel.classList.remove("show");
+            link.classList.remove("open");
+          }
+        });
+      });
+
+      /* close dropdowns on outside click (desktop) */
+      document.addEventListener("click", (e) => {
+        if (window.innerWidth >= DESK && !e.target.closest(".dd-wrap"))
+          closeAllDd();
+      });
+
+      /* close menu on resize to desktop */
+      window.addEventListener("resize", () => {
+        if (window.innerWidth >= DESK) closeMenu();
+      });
+    </script>
+  </body>
+</html>
