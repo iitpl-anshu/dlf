@@ -1,0 +1,968 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DLF – Building India</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <style>
+         /* ===== DLF CUSTOM CSS ===== */
+        
+
+     
+  </style>
+  <body>
+    <div class="nav-overlay" id="navOverlay" onclick="closeMenu()"></div>
+    <nav class="dlf-nav">
+      <div class="container-xl">
+        <div class="nav-bar">
+          <a class="brand" href="#">
+            <img src="assets/img/logo.svg" alt="" />
+          </a>
+          <button
+            class="ham"
+            id="hamBtn"
+            onclick="openMenu()"
+            aria-label="Open menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <div class="nav-menu" id="navMenu">
+            <div class="mob-head">
+              <a class="brand" href="#">
+                <span class="t1">DLF<em>▲</em></span>
+                <span class="t2">Building India</span>
+              </a>
+              <button
+                class="mob-close"
+                onclick="closeMenu()"
+                aria-label="Close"
+              >
+                ✕
+              </button>
+            </div>
+            <div class="nav-links">
+              <div class="dd-wrap">
+                <a class="nl" href="#" data-dd="dd1">
+                  DLF Privana <i class="bi bi-chevron-down chev"></i>
+                </a>
+                <ul class="dd-panel" id="dd1">
+                  <li><span class="lbl">Gurgaon</span></li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-building"></i>DLF Privana South</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-building"></i>DLF Privana West</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-building"></i>DLF The Dahlias</a
+                    >
+                  </li>
+                  <li>
+                    <hr />
+                  </li>
+                  <li><span class="lbl">Mumbai</span></li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-building"></i>DLF Privana Mumbai</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="dd-wrap">
+                <a class="nl" href="#" data-dd="dd2">
+                  All Projects <i class="bi bi-chevron-down chev"></i>
+                </a>
+                <ul class="dd-panel" id="dd2">
+                  <li><span class="lbl">By Type</span></li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-houses"></i>Residential</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-briefcase"></i>Commercial</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"><i class="bi bi-shop"></i>Retail</a>
+                  </li>
+                  <li>
+                    <hr />
+                  </li>
+                  <li><span class="lbl">By City</span></li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-geo-alt"></i>Gurgaon</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-geo-alt"></i>Mumbai</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-geo-alt"></i>Delhi NCR</a
+                    >
+                  </li>
+                  <li>
+                    <a class="di" href="#"
+                      ><i class="bi bi-geo-alt"></i>Chennai</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <a class="nl" href="#">Commercial</a>
+              <a class="nl" href="#">Residential</a>
+              <a class="nl" href="#">News</a>
+            </div>
+            <div class="nav-right">
+              <a href="tel:+919211620061" class="ph"
+                ><i class="bi bi-telephone-fill"></i>+91 9211620061</a
+              >
+              <a href="#" class="btn-enq">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ═══════════════════ HERO ═══════════════════ -->
+    <!-- MAIN CONTAINER -->
+ <section class="section-newevent">
+     <div class="container">
+        
+        <!-- HEADER SECTION -->
+        <div class="dlf-news-header dlf-text-center">
+            <h1 class="dlf-title">News & Media</h1>
+            <p class="dlf-subtitle">Discover premium residences by DLF Homes - now redefining luxury in Mumbai and Gurgaon with its smart projects like DLF Privana and more.</p>
+        </div>
+
+        <!-- RECENT NEWS SECTION -->
+        <div class="dlf-section">
+            <h2 class="dlf-section-title">Recent News</h2>
+            <div class="dlf-row">
+                
+                <!-- CARD 1 -->
+                <div>
+                    <div class="dlf-card">
+                        <div class="dlf-card-image">
+                            <img src="./assets/img/blog1.png" alt="DLF Privana Phase 2">
+                        </div>
+                        <div class="dlf-card-content">
+                            <span class="dlf-card-category">Featured</span>
+                            <h3 class="dlf-card-title">DLF Privana Phase 2</h3>
+                            <p class="dlf-card-description">Situated in engineering districts, DLF Privana Phase 2 offers you a wide variety of options for your family. Choose from modern architecture and luxurious amenities to have the best.</p>
+                            <a href="#" class="dlf-card-link">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div>
+                    <div class="dlf-card">
+                        <div class="dlf-card-image">
+                            <img src="./assets/img/blog2.png" alt="DLF Mumbai Anthem Nearing Completion">
+                        </div>
+                        <div class="dlf-card-content">
+                            <span class="dlf-card-category">News</span>
+                            <h3 class="dlf-card-title">DLF Mumbai Anthem Nearing Completion</h3>
+                            <p class="dlf-card-description">Our much-anticipated DLF Mumbai project in Andheri is nearing completion with world-class finishes and smart home features. Your dream home awaits. Book this year.</p>
+                            <a href="#" class="dlf-card-link">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div>
+                    <div class="dlf-card">
+                        <div class="dlf-card-image">
+                            <img src="./assets/img/blog2.png" alt="DLF Mumbai Anthem Nearing Completion">
+                        </div>
+                        <div class="dlf-card-content">
+                            <span class="dlf-card-category">News</span>
+                            <h3 class="dlf-card-title">DLF Mumbai Anthem Nearing Completion</h3>
+                            <p class="dlf-card-description">Our much-anticipated DLF Mumbai project in Andheri finishing and smart home features, hardware are expected to begin early next year.</p>
+                            <a href="#" class="dlf-card-link">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <div>
+                    <div class="dlf-card">
+                        <div class="dlf-card-image">
+                            <img src="./assets/img/blog2.png" alt="DLF Mumbai Anthem Nearing Completion">
+                        </div>
+                        <div class="dlf-card-content">
+                            <span class="dlf-card-category">News</span>
+                            <h3 class="dlf-card-title">DLF Mumbai Anthem Nearing Completion</h3>
+                            <p class="dlf-card-description">Our much-anticipated DLF Mumbai project in Andheri finishing and smart home features, hardware are expected to begin early next year.</p>
+                            <a href="#" class="dlf-card-link">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+    </div>
+ </section>
+    
+
+    <section class="dlf-cta-section">
+      <!-- Background with overlay -->
+      <div class="dlf-cta-bg"></div>
+
+      <!-- Top teal line -->
+      <div class="dlf-cta-topline"></div>
+
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- ══ LEFT: Heading + Description ══ -->
+          <div class="col-12 col-lg-5">
+            <div class="dlf-cta-left">
+              <h2 class="dlf-cta-heading">
+                Ready to Upgrade Your<br />Lifestyle?
+              </h2>
+              <div class="dlf-cta-desc">
+                <p>
+                  Join thousands of families who've chosen DLF Homes for their
+                  dream life.
+                </p>
+                <p>- Book a site visit to DLF Privana or DLF Mumbai today.</p>
+                <p>- Call us or fill out the form below to get started.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ══ RIGHT: Contact Form Card ══ -->
+          <div class="col-12 col-lg-6 offset-lg-1">
+            <div class="dlf-cta-card">
+              <!-- Full Name -->
+              <div class="dlf-cta-form-group">
+                <label class="dlf-cta-label">Full Name <span>*</span></label>
+                <input
+                  type="text"
+                  class="dlf-cta-input"
+                  placeholder="Jane Smith"
+                />
+              </div>
+
+              <!-- Email + Phone -->
+              <div class="row g-3 dlf-cta-form-group">
+                <div class="col-12 col-sm-6">
+                  <label class="dlf-cta-label"
+                    >Email Address <span>*</span></label
+                  >
+                  <input
+                    type="email"
+                    class="dlf-cta-input"
+                    placeholder="jane@framer.com"
+                  />
+                </div>
+                <div class="col-12 col-sm-6">
+                  <label class="dlf-cta-label">Phone Number</label>
+                  <input
+                    type="tel"
+                    class="dlf-cta-input"
+                    placeholder="+1 (951) 239-0523"
+                  />
+                </div>
+              </div>
+
+              <!-- Message -->
+              <div class="dlf-cta-form-group">
+                <label class="dlf-cta-label">Message</label>
+                <textarea
+                  class="dlf-cta-textarea"
+                  placeholder="Write your project details..."
+                ></textarea>
+              </div>
+
+              <!-- Submit -->
+              <button class="dlf-cta-submit" type="button">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="dlf-footer">
+      <!-- City background -->
+      <div class="dlf-footer-bg"></div>
+
+      <div class="container">
+        <!-- ══ MAIN FOOTER ROW ══ -->
+        <div class="dlf-footer-main">
+          <div class="row g-4 g-lg-5">
+            <!-- Col 1: Logo -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="dlf-footer-logo-wrap">
+                <div class="dlf-footer-logo">
+                  <!-- DLF Logo SVG -->
+                  <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+                    <!-- DLF text -->
+                    <text
+                      x="0"
+                      y="52"
+                      font-family="DM Sans, Arial, sans-serif"
+                      font-weight="800"
+                      font-size="52"
+                      fill="#ffffff"
+                      letter-spacing="-2"
+                    >
+                      DLF
+                    </text>
+                    <!-- Triangle icon -->
+                    <polygon
+                      points="88,8 108,44 68,44"
+                      fill="none"
+                      stroke="#ffffff"
+                      stroke-width="3"
+                    />
+                    <polygon
+                      points="88,16 103,40 73,40"
+                      fill="none"
+                      stroke="#ffffff"
+                      stroke-width="1.5"
+                      opacity="0.5"
+                    />
+                  </svg>
+                </div>
+                <div class="dlf-footer-brand-text">Channel Partner</div>
+              </div>
+            </div>
+
+            <!-- Col 2: Menu -->
+            <div class="col-6 col-md-3 col-lg-3">
+              <div class="dlf-footer-col-title">Menu</div>
+              <ul class="dlf-footer-links">
+                <li><a href="#">Home</a></li>
+                <li>
+                  <a href="#"
+                    >Launching Soon
+                    <span class="dlf-footer-arrow">&#8964;</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    >DLF Privana
+                    <span class="dlf-footer-arrow">&#8964;</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    >New Launches
+                    <span class="dlf-footer-arrow">&#8964;</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    >Ready to move
+                    <span class="dlf-footer-arrow">&#8964;</span></a
+                  >
+                </li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+
+            <!-- Col 3: Category -->
+            <div class="col-6 col-md-3 col-lg-3">
+              <div class="dlf-footer-col-title">Category</div>
+              <ul class="dlf-footer-links">
+                <li>
+                  <a href="#"
+                    >Commercial Projects
+                    <span class="dlf-footer-arrow">&#8964;</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    >Residential Projects
+                    <span class="dlf-footer-arrow">&#8964;</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Col 4: Support -->
+            <div class="col-6 col-md-3 col-lg-3">
+              <div class="dlf-footer-col-title">Support</div>
+              <ul class="dlf-footer-links">
+                <li><a href="#">Terms &amp; services</a></li>
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Resources</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /main -->
+
+        <!-- ══ BOTTOM BAR ══ -->
+        <div class="dlf-footer-bottom">
+          <!-- Copyright -->
+          <div class="dlf-footer-copy">© 2025 by DLF HOMES</div>
+
+          <!-- Social Icons -->
+          <div class="dlf-footer-socials">
+            <!-- Instagram -->
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                />
+              </svg>
+            </a>
+
+            <!-- X (Twitter) -->
+            <a href="#" aria-label="X">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                />
+              </svg>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+
+            <!-- Facebook -->
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- /bottom -->
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      // ── Animated Counter on Scroll ──
+      function animateCounter(el) {
+        var target = parseInt(el.getAttribute("data-target"));
+        var suffix = el.getAttribute("data-suffix") || "";
+        var duration = 2000; // ms
+        var stepTime = 16; // ~60fps
+        var steps = duration / stepTime;
+        var increment = target / steps;
+        var current = 0;
+
+        var timer = setInterval(function () {
+          current += increment;
+          if (current >= target) {
+            current = target;
+            clearInterval(timer);
+          }
+          // Format with commas for large numbers
+          var display = Math.floor(current);
+          if (display >= 1000) {
+            display = display.toLocaleString("en-IN");
+          }
+          el.textContent = display + suffix;
+        }, stepTime);
+      }
+
+      // ── Intersection Observer ──
+      var counters = document.querySelectorAll(".counter");
+      var triggered = false;
+
+      var observer = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting && !triggered) {
+              triggered = true;
+              counters.forEach(function (counter) {
+                animateCounter(counter);
+              });
+            }
+          });
+        },
+        { threshold: 0.4 },
+      );
+
+      var section = document.querySelector(".counter-section");
+      if (section) observer.observe(section);
+    </script>
+    <script>
+      $(function () {
+        var carousels = {
+          residential: {
+            owlId: "#owl-residential",
+            dotsId: "#dots-residential",
+          },
+          commercial: { owlId: "#owl-commercial", dotsId: "#dots-commercial" },
+        };
+
+        /* ── Build dots ── */
+        function buildDots(tabKey) {
+          var cfg = carousels[tabKey];
+          var $owl = $(cfg.owlId);
+          var total = $owl.find(".item").length;
+          var items = getItems();
+          var pages = Math.ceil(total / items);
+          var $wrap = $(cfg.dotsId).empty();
+          for (var i = 0; i < pages; i++) {
+            $wrap.append(
+              '<button class="owl-dot-btn' +
+                (i === 0 ? " active" : "") +
+                '" data-page="' +
+                i +
+                '"></button>',
+            );
+          }
+        }
+
+        function getItems() {
+          var w = $(window).width();
+          if (w < 576) return 1;
+          if (w < 992) return 2;
+          return 3;
+        }
+
+        /* ── Init carousel ── */
+        function initOwl(tabKey) {
+          var cfg = carousels[tabKey];
+          var $owl = $(cfg.owlId);
+          if ($owl.hasClass("owl-loaded")) return;
+
+          $owl.owlCarousel({
+            loop: false,
+            margin: 0,
+            dots: false,
+            nav: false,
+            responsive: {
+              0: { items: 1 },
+              576: { items: 2 },
+              992: { items: 3 },
+            },
+          });
+
+          buildDots(tabKey);
+
+          $owl.on("translated.owl.carousel", function (e) {
+            var page = Math.floor(e.item.index / getItems());
+            $(cfg.dotsId)
+              .find(".owl-dot-btn")
+              .removeClass("active")
+              .eq(page)
+              .addClass("active");
+          });
+
+          $(cfg.dotsId).on("click", ".owl-dot-btn", function () {
+            var page = $(this).data("page");
+            $owl.trigger("to.owl.carousel", [page * getItems(), 400]);
+          });
+        }
+
+        /* ── Prev / Next ── */
+        $(document).on("click", ".owl-custom-btn", function () {
+          var target = "#" + $(this).data("target");
+          var dir = $(this).data("dir");
+          $(target).trigger(
+            dir === "prev" ? "prev.owl.carousel" : "next.owl.carousel",
+          );
+        });
+
+        /* ── Tab switch ── */
+        $("#projectTabPills").on("click", ".tab-pill-btn", function () {
+          var tab = $(this).data("tab");
+          $(".tab-pill-btn").removeClass("active");
+          $(this).addClass("active");
+          $(".tab-panel-carousel").hide().removeClass("active");
+          $("#panel-" + tab)
+            .show()
+            .addClass("active");
+          initOwl(tab);
+          setTimeout(function () {
+            var $owl = $(carousels[tab].owlId);
+            if ($owl.hasClass("owl-loaded"))
+              $owl.trigger("refresh.owl.carousel");
+          }, 50);
+        });
+
+        /* ── Init default tab ── */
+        initOwl("residential");
+      });
+    </script>
+    <script>
+      $(function () {
+        // ── Carousel config map ──
+        const carousels = {
+          featured: { id: "#owl-featured", dots: "#dots-featured" },
+          "new-launches": {
+            id: "#owl-new-launches",
+            dots: "#dots-new-launches",
+          },
+          ready: { id: "#owl-ready", dots: "#dots-ready" },
+          coming: { id: "#owl-coming", dots: "#dots-coming" },
+        };
+
+        // ── Build custom dots ──
+        function buildDots(owlId, dotsContainerId, totalSlides, items) {
+          const pages = Math.ceil(totalSlides / items);
+          const $c = $(dotsContainerId).empty();
+          for (let i = 0; i < pages; i++) {
+            $c.append(
+              `<button class="owl-dot-custom${i === 0 ? " active" : ""}" data-page="${i}"></button>`,
+            );
+          }
+        }
+
+        // ── Init one carousel ──
+        function initOwl(tabKey) {
+          const cfg = carousels[tabKey];
+          const $owl = $(cfg.id);
+
+          if ($owl.hasClass("owl-loaded")) return; // already init
+
+          $owl.owlCarousel({
+            loop: false,
+            margin: 16,
+            dots: false,
+            nav: false,
+            responsive: {
+              0: { items: 1 },
+              576: { items: 2 },
+              992: { items: 3 },
+            },
+          });
+
+          const totalSlides = $owl.find(".item").length;
+          let itemsVisible = 3;
+          if ($(window).width() < 576) itemsVisible = 1;
+          else if ($(window).width() < 992) itemsVisible = 2;
+          buildDots(cfg.id, cfg.dots, totalSlides, itemsVisible);
+
+          // Sync dots on slide change
+          $owl.on("translated.owl.carousel", function (e) {
+            const page = e.item.index;
+            const $dots = $(cfg.dots).find(".owl-dot-custom");
+            $dots.removeClass("active");
+            $dots.eq(Math.floor(page)).addClass("active");
+          });
+
+          // Custom dot click
+          $(cfg.dots).on("click", ".owl-dot-custom", function () {
+            const page = $(this).data("page");
+            $owl.trigger("to.owl.carousel", [page * itemsVisible, 400]);
+          });
+        }
+
+        // ── Tab switching ──
+        $("#tabList").on("click", ".tab-btn", function () {
+          const tab = $(this).data("tab");
+
+          // Update active tab button
+          $(".tab-btn").removeClass("active");
+          $(this).addClass("active");
+
+          // Show correct panel
+          $(".tab-panel").removeClass("active");
+          $("#panel-" + tab).addClass("active");
+
+          // Init carousel (lazy)
+          initOwl(tab);
+        });
+
+        // ── Prev/Next buttons ──
+        $(document).on("click", ".owl-custom-prev", function () {
+          $("#" + $(this).data("target")).trigger("prev.owl.carousel");
+        });
+        $(document).on("click", ".owl-custom-next", function () {
+          $("#" + $(this).data("target")).trigger("next.owl.carousel");
+        });
+
+        // ── Init active tab's carousel on load ──
+        initOwl("new-launches");
+      });
+    </script>
+    <script>
+      const DESK = 992;
+      const menu = document.getElementById("navMenu");
+      const overlay = document.getElementById("navOverlay");
+
+      /* ── Mobile open / close ── */
+      function openMenu() {
+        menu.classList.add("open");
+        overlay.classList.add("show");
+        document.body.style.overflow = "hidden";
+      }
+      function closeMenu() {
+        menu.classList.remove("open");
+        overlay.classList.remove("show");
+        document.body.style.overflow = "";
+        // close all dropdowns too
+        closeAllDd();
+      }
+
+      /* ── Dropdown helpers ── */
+      function closeAllDd(except) {
+        document.querySelectorAll(".dd-panel.show").forEach((p) => {
+          if (p !== except) {
+            p.classList.remove("show");
+            document
+              .querySelector(`[data-dd="${p.id}"]`)
+              .classList.remove("open");
+          }
+        });
+      }
+
+      document.querySelectorAll("[data-dd]").forEach((link) => {
+        const panel = document.getElementById(link.getAttribute("data-dd"));
+        const wrap = link.closest(".dd-wrap");
+        let leaveT;
+
+        /* DESKTOP — hover */
+        wrap.addEventListener("mouseenter", () => {
+          if (window.innerWidth < DESK) return;
+          clearTimeout(leaveT);
+          closeAllDd(panel);
+          panel.classList.add("show");
+          link.classList.add("open");
+        });
+        wrap.addEventListener("mouseleave", () => {
+          if (window.innerWidth < DESK) return;
+          leaveT = setTimeout(() => {
+            panel.classList.remove("show");
+            link.classList.remove("open");
+          }, 120);
+        });
+
+        /* MOBILE — click/tap accordion */
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          if (window.innerWidth >= DESK) return;
+          const isOpen = panel.classList.contains("show");
+          closeAllDd(panel);
+          if (!isOpen) {
+            panel.classList.add("show");
+            link.classList.add("open");
+          } else {
+            panel.classList.remove("show");
+            link.classList.remove("open");
+          }
+        });
+      });
+
+      /* close dropdowns on outside click (desktop) */
+      document.addEventListener("click", (e) => {
+        if (window.innerWidth >= DESK && !e.target.closest(".dd-wrap"))
+          closeAllDd();
+      });
+
+      /* close menu on resize to desktop */
+      window.addEventListener("resize", () => {
+        if (window.innerWidth >= DESK) closeMenu();
+      });
+    </script>
+
+    <script>
+      (function ($) {
+        $(document).ready(function () {
+          var $owl = $("#dlfUpdatedOwl");
+
+          $owl.owlCarousel({
+            loop: false,
+            margin: 0,
+            dots: false,
+            nav: false,
+            responsive: {
+              0: { items: 1 },
+              576: { items: 1 },
+              768: { items: 2 },
+              992: { items: 2 },
+            },
+          });
+
+          $("#dlfUpdPrev").on("click", function () {
+            $owl.trigger("prev.owl.carousel");
+          });
+
+          $("#dlfUpdNext").on("click", function () {
+            $owl.trigger("next.owl.carousel");
+          });
+        });
+      })(jQuery);
+    </script>
+
+    <script>
+(function () {
+  var pairs   = document.querySelectorAll('.dlf-gal-pair');
+  var counter = document.getElementById('dlf-gal-counter');
+  var prevBtn = document.getElementById('dlf-gal-prev');
+  var nextBtn = document.getElementById('dlf-gal-next');
+  var total   = pairs.length;
+  var current = 0;
+
+  function showPair(index) {
+    pairs.forEach(function (pair, i) {
+      pair.style.display = (i === index) ? 'flex' : 'none';
+      // re-trigger animation on active pair
+      if (i === index) {
+        pair.classList.remove('dlf-gal-pair');
+        void pair.offsetWidth; // reflow
+        pair.classList.add('dlf-gal-pair');
+      }
+    });
+    counter.textContent = (index + 1) + ' / ' + total;
+  }
+
+  prevBtn.addEventListener('click', function () {
+    if (current > 0) { current--; showPair(current); }
+  });
+
+  nextBtn.addEventListener('click', function () {
+    if (current < total - 1) { current++; showPair(current); }
+  });
+
+  // Init — show first, hide rest
+  showPair(0);
+})();
+
+(function () {
+  var tabs     = document.querySelectorAll('.dlf-am-tab-btn');
+  var imgA     = document.getElementById('dlfAmImgA');
+  var imgB     = document.getElementById('dlfAmImgB');
+  var front    = imgA;
+  var back     = imgB;
+  var current  = 0;
+  var duration = 3000; // ms per tab
+  var interval = null;
+  var startTime = null;
+  var rafId    = null;
+
+  /* ── Switch to tab by index ── */
+  function switchTo(index) {
+    // Reset all tabs
+    tabs.forEach(function (t) {
+      t.classList.remove('active');
+      var bar = t.querySelector('.dlf-am-progress-bar');
+      bar.style.transition = 'none';
+      bar.style.width = '0%';
+    });
+
+    current = (index + tabs.length) % tabs.length;
+    var btn = tabs[current];
+    btn.classList.add('active');
+
+    // Swap image
+    var newSrc = btn.getAttribute('data-img');
+    back.src = newSrc;
+    back.classList.remove('dlf-am-img-hidden');
+    back.classList.add('dlf-am-img-visible');
+    front.classList.remove('dlf-am-img-visible');
+    front.classList.add('dlf-am-img-hidden');
+    var tmp = front; front = back; back = tmp;
+
+    // Start progress bar animation
+    startProgress(btn.querySelector('.dlf-am-progress-bar'));
+  }
+
+  /* ── Animate progress bar using requestAnimationFrame ── */
+  function startProgress(bar) {
+    if (rafId) cancelAnimationFrame(rafId);
+    startTime = null;
+
+    function step(ts) {
+      if (!startTime) startTime = ts;
+      var elapsed = ts - startTime;
+      var pct = Math.min((elapsed / duration) * 100, 100);
+      bar.style.width = pct + '%';
+
+      if (pct < 100) {
+        rafId = requestAnimationFrame(step);
+      } else {
+        // Auto advance to next
+        switchTo(current + 1);
+      }
+    }
+    rafId = requestAnimationFrame(step);
+  }
+
+  /* ── Manual click ── */
+  tabs.forEach(function (btn, i) {
+    btn.addEventListener('click', function () {
+      if (i === current) return; // already active
+      switchTo(i);
+    });
+  });
+
+  /* ── Init first tab ── */
+  switchTo(0);
+})();
+
+(function () {
+  var items = document.querySelectorAll('.dlf-faq-item');
+
+  items.forEach(function (item) {
+    var btn = item.querySelector('.dlf-faq-question');
+
+    btn.addEventListener('click', function () {
+      var isOpen = item.classList.contains('open');
+
+      // Close all
+      items.forEach(function (i) {
+        i.classList.remove('open');
+      });
+
+      // Open clicked (if was closed)
+      if (!isOpen) {
+        item.classList.add('open');
+      }
+    });
+  });
+})();
+</script>
+  </body>
+</html>
